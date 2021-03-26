@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .products__item {
+        flex-basis: calc(100% / 2 - 30px);
+        margin-right: 0;
+
+        &:nth-child(7),
+        &:nth-child(8) {
+            margin-bottom: 30px;
+        }
+    }
+
+    .overlay {
+        height: 267px;
+    }
+}
+

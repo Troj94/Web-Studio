@@ -1,0 +1,27 @@
+.section-hero {
+    // min-width: 480px;
+    max-width: 100%;
+    height: 400px;
+
+    margin: 0 auto;
+    padding-top: 118px;
+    padding-bottom: 198px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url("../img/background-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &__title {
+        margin: 0 auto 30px auto;
+
+        color: var(--tertiary-text);
+
+        text-align: center;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 42px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    }
+}

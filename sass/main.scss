@@ -1,0 +1,21 @@
+@import "./utils/variables";
+@import "./utils/modern-normalize";
+// @import "./components/container";
+// @import "./components/header";
+// @import "./components/hero";
+// @import "./components/buttons";
+// @import "./components/advantages";
+// @import "./components/gallery";
+// @import "./components/team";
+// @import "./components/social";
+// @import "./components/clients";
+// @import "./components/footer";
+// @import "./components/subscribe-form";
+// @import "./components/modal";
+// @import "./components/filter";
+// @import "./components/product-cards";
+@import "./components/body";
+
+@import "./components/mobile/mobile";
+@import "./components/tablet/tablet";
+@import "./components/desktop/desktop";

@@ -1,0 +1,25 @@
+.section {
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        margin: 0 auto;
+    }
+}
+
+.advantages {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__item {
+        @media screen and (min-width: 768px) {
+            flex-basis: calc(768px / 2 - 30px);
+        }
+    }
+
+    &__item:nth-child(3),
+    &__item:last-child {
+        margin-bottom: 0;
+    }
+}

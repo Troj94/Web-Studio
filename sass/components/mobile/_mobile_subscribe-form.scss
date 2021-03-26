@@ -1,0 +1,22 @@
+.subscribe-form {
+    width: 100%;
+    margin-top: 18px;
+
+    &__input-block {
+        // display: flex;
+        width: 100%;
+    }
+
+    &__input-area {
+        width: 450px;
+        height: 49px;
+
+        margin: 0 0 20px 0;
+        padding: 16px 15px;
+
+        background-color: inherit;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        color: var(--tertiary-text);
+    }
+}

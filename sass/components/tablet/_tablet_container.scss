@@ -1,0 +1,46 @@
+.container {
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+
+    &--header {
+
+        @media screen and (min-width: 768px) {
+            width: 768px;
+        }
+    }
+
+    &--footer {
+
+        @media screen and (min-width: 768px) {
+            width: 768px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+    }
+
+    &--products {
+
+        @media screen and (min-width: 768px) {
+            width: 768px;
+        }
+
+    }
+}
+
+.mobile-menu {
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
+}
+
+.modal--mobile-menu {
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
