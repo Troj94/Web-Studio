@@ -20,13 +20,17 @@
           ><span class="logo__text">Web</span>Studio</a
         >
 
-        <div class="modal--mobile-menu">
-          <button type="button" class="button--mobile-menu">
-            <svg class="button__icon--mobile-menu" width="24px" height="16px">
-              <use href="./img/icons/symbol-defs.svg#icon-mobile-menu"></use>
-            </svg>
-          </button>
-        </div>
+        <!-- Кнопка Мобильное меню -->
+        <button
+          type="button"
+          class="button--mobile-menu js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="button__icon--mobile-menu" width="24px" height="16px">
+            <use href="./img/icons/symbol-defs.svg#icon-mobile-menu"></use>
+          </svg>
+        </button>
 
         <div class="mobile-menu">
           <nav class="navigation">
@@ -584,7 +588,62 @@
       </div>
     </div>
 
+    <!--  Мобильное меню -->
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="mobile-menu__icon--close" width="19px" height="19px">
+          <use href="./img/icons/symbol-defs.svg#icon-mob-menu-close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu__navigation-list">
+        <li
+          class="mobile-menu__navigation-item mobile-menu__navigation-item--active"
+        >
+          Студия
+        </li>
+        <li class="mobile-menu__navigation-item">Портфолио</li>
+        <li class="mobile-menu__navigation-item">Контакты</li>
+      </ul>
+
+      <ul class="mobile-menu__contacts-list">
+        <li class="mobile-menu__contacts--tel">
+          <a class="mobile-menu__link--tel" href="tel:+380961111111">
+            +38 096 111 11 11
+          </a>
+        </li>
+        <li class="mobile-menu__contacts--mail">
+          <a class="mobile-menu__link--mail" href="mailto:info@devstudio.com">
+            info@devstudio.com</a
+          >
+        </li>
+      </ul>
+
+      <ul class="mobile-menu__social-list">
+        <li class="mobile-menu__social--item">
+          <a class="mobile-menu__social--link" href="#">Instagram</a>
+        </li>
+        <li class="mobile-menu__social--item">
+          <a class="mobile-menu__social--link" href="#">Twitter</a>
+        </li>
+        <li class="mobile-menu__social--item">
+          <a class="mobile-menu__social--link" href="#">Facebook</a>
+        </li>
+        <li class="mobile-menu__social--item">
+          <a class="mobile-menu__social--link" href="#">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+    <!-- Конец мобильного меню -->
+
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
