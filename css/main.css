@@ -379,8 +379,10 @@ summary {
   }
 }
 
-.mobile-menu {
-  display: none;
+@media screen and (max-width: 767px) {
+  .mobile-menu {
+    display: none;
+  }
 }
 
 .header {
@@ -682,7 +684,7 @@ summary {
   background-image: url("../img/icons/astronaut1.svg");
 }
 
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .gallery {
     display: none;
   }
@@ -715,7 +717,7 @@ summary {
   border-radius: 0px 0px 4px 4px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .team__item {
     margin: 0 0 30px 0;
   }
@@ -878,8 +880,8 @@ summary {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .clients {
+@media screen and (max-width: 767px) {
+  .clients__item {
     margin-bottom: 30px;
   }
 }
@@ -1329,7 +1331,7 @@ summary {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .container--footer {
     width: 768px;
     display: -webkit-box;

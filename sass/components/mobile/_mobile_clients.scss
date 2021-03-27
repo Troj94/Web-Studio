@@ -16,7 +16,6 @@
 
         // margin-right: 30px;
 
-
         border: 1px solid var(--clients-border);
         box-sizing: border-box;
         border-radius: 4px;
@@ -25,11 +24,13 @@
 
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        @media screen and (max-width: 767px) {
+            margin-bottom: 30px;
+        }
     }
 
-    @media screen and (min-width: 480px) and (max-width: 767px) {
-        margin-bottom: 30px;
-    }
+
 
     &__item:nth-child(2n+3),
     &__item:nth-child(1) {
