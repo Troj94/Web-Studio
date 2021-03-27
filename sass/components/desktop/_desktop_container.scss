@@ -1,25 +1,24 @@
 .container {
-
     @media screen and (min-width: 1200px) {
         width: 1200px;
     }
 
     &--header {
-
         @media screen and (min-width: 1200px) {
             width: 1200px;
         }
     }
 
     &--footer {
-
         @media screen and (min-width: 1200px) {
             width: 1200px;
+            flex-wrap: unset;
+            justify-content: space-between;
+            align-items: baseline;
         }
     }
 
     &--products {
-
         @media screen and (min-width: 1200px) {
             width: 1200px;
         }

@@ -68,7 +68,9 @@
     }
 
     &__input {
-        width: 370px;
+        @media screen and (min-width: 480px) and (max-width: 1199px) {
+            width: 370px;
+        }
         height: 40px;
 
         border: 1px solid var(--modal-input-border);

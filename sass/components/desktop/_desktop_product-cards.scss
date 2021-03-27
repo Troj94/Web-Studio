@@ -1,21 +1,19 @@
-@media screen and (min-width: 768px) {
-    .products {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
+@media screen and (min-width: 1200px) {
     .products__item {
-        flex-basis: calc(100% / 2 - 30px);
+        flex-basis: calc(100% / 3 - 30px);
         margin-right: 0;
 
-        &:nth-child(7),
-        &:nth-child(8) {
-            margin-bottom: 30px;
+        &:nth-child(n+7) {
+            margin-bottom: 0;
         }
     }
 
     .overlay {
-        height: 267px;
+        height: 284px;
+
+        &--thumb {
+            height: 284px;
+        }
     }
 }
 

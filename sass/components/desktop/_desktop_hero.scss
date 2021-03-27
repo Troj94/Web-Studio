@@ -1,0 +1,13 @@
+
+@media screen and (min-width: 1200px) {
+    .section-hero {
+        height: 600px;
+        display: flex;
+        align-items: center;
+    }
+
+    .section-hero__title {
+        font-size: 44px;
+        line-height: 60px;
+    }
+}

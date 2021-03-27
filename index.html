@@ -20,12 +20,18 @@
           ><span class="logo__text">Web</span>Studio</a
         >
 
-        <div class="modal--mobile-menu">
-          <button type="button" class="button--mobile-menu">
-            <svg class="button__icon--mobile-menu" width="24px" height="16px">
-              <use href="./img/icons/symbol-defs.svg#icon-mobile-menu"></use>
-            </svg>
-          </button>
+        <button
+          type="button"
+          class="button--mobile-menu js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="button__icon--mobile-menu" width="24px" height="16px">
+            <use href="./img/icons/symbol-defs.svg#icon-mobile-menu"></use>
+          </svg>
+        </button>
+        <div class="modal--mobile-menu js-menu-container">
+          <button class="mobile-menu-close js-menu-close">close</button>
         </div>
 
         <div class="mobile-menu">
