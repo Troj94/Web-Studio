@@ -305,7 +305,7 @@ summary {
 
 @media screen and (min-width: 480px) {
   .container {
-    min-width: 320px;
+    min-width: 480px;
   }
 }
 
@@ -766,6 +766,7 @@ summary {
 
 .advantages__title {
   margin: 0 0 10px 0;
+  margin-bottom: 10px;
   text-align: center;
   font-weight: bold;
   font-size: 14px;
@@ -825,7 +826,7 @@ summary {
 }
 
 .team {
-  margin: 0;
+  margin: 0 auto;
   background-color: #f5f4fa;
 }
 
@@ -868,7 +869,7 @@ summary {
 }
 
 .text-block {
-  padding: 30px 15px 24px 15px;
+  padding: 30px 32px;
 }
 
 .text-block__title {
@@ -1131,6 +1132,12 @@ summary {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   color: var(--tertiary-text);
+}
+
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .subscribe-form__input-area {
+    width: 450px;
+  }
 }
 
 .backdrop {
@@ -1932,6 +1939,7 @@ summary {
   }
   .gallery__text {
     color: var(--tertiary-text);
+    margin-bottom: 0;
   }
 }
 

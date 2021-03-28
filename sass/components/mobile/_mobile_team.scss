@@ -1,5 +1,5 @@
 .team {
-    margin: 0;
+    margin: 0 auto;
     // flex-wrap: wrap;
     // justify-content: stretch;
     background-color: rgba(245, 244, 250, 1);
@@ -47,7 +47,7 @@
 }
 
 .text-block {
-    padding: 30px 15px 24px 15px;
+    padding: 30px 32px;
 
     &__title {
         margin: 0 0 10px 0;

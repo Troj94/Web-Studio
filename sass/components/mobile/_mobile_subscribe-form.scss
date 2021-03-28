@@ -20,5 +20,9 @@
         border: 1px solid rgba(255, 255, 255, 0.3);
         border-radius: 4px;
         color: var(--tertiary-text);
+
+        @media screen and (min-width: 480px) and (max-width: 1199px) {
+            width: 450px;
+        }
     }
 }
