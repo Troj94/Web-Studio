@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0;
-    justify-content: space-between;
+    justify-content: space-around;
 
     &__item {
         // flex-basis: calc(100% / 2 - 30px);
@@ -29,8 +29,6 @@
             margin-bottom: 30px;
         }
     }
-
-
 
     &__item:nth-child(2n+3),
     &__item:nth-child(1) {

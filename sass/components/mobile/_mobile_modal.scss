@@ -24,7 +24,8 @@
 
     padding: 40px;
 
-    width: calc(480px - 30px);
+    // width: calc(480px - 30px);
+    width: auto;
     height: 609px;
     left: 50%;
     top: 50%;
@@ -57,6 +58,7 @@
     }
 
     &__block:nth-child(4n) {
+
         margin-bottom: 20px;
     }
 
@@ -68,6 +70,10 @@
     }
 
     &__input {
+        @media screen and (max-width: 479px) {
+            width: 100%;
+        }
+
         @media screen and (min-width: 480px) and (max-width: 1199px) {
             width: 370px;
         }
@@ -107,6 +113,9 @@
     }
 
     &__input--textarea {
+        @media screen and (max-width: 479px) {
+            width: 100%;
+        }
         resize: none;
         display: block;
         height: 120px;
