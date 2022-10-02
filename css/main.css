@@ -118,7 +118,12 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-family: ui-monospace,
+ SFMono-Regular,
+ Consolas,
+ 'Liberation Mono',
+ Menlo,
+ monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -1165,6 +1170,11 @@ summary {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   color: var(--tertiary-text);
+  outline: none;
+}
+
+.subscribe-form__input-area:focus {
+  border: 1px solid #a59d9d;
 }
 
 @media screen and (min-width: 480px) and (max-width: 1199px) {
